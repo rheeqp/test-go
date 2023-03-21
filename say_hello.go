@@ -1,5 +1,5 @@
 package test_go
 
-func SayHello() string {
-	return "Say Hello World"
+func SayHello(name string) string {
+	return "Hello " + name
 }
